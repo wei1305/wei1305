@@ -17,7 +17,7 @@
 
 
 <h2 align="center">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f6e0.svg" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
   Skills & Tools
 </h2>
 
@@ -26,9 +26,9 @@
 </div>
 
 <h2 align="center">
-  <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4ca.svg" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
   Contributions
-  <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4ca.svg" width="30px" height="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
 </h2>
 
 <div align="center">
@@ -39,21 +39,23 @@
 
 
 <h2 align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="30px" width="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4e6.svg" height="30px" width="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
   GitHub Activity
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="30px" width="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f4e6.svg" height="30px" width="30px" style="vertical-align: middle; position: relative; top: -2px;"/>
 </h2>
 
 <div align="center">
+<!-- 修复Snake贡献贪吃蛇，切换公共CDN兜底，双适配明暗 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wei1305/wei1305/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wei1305/wei1305/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wei1305/wei1305/output/github-contribution-grid-snake-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-snake.vercel.app/api?username=wei1305&bg_color=0d1117&color1=7C3AED&color2=06B6D4">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-snake.vercel.app/api?username=wei1305&bg_color=ffffff&color1=7C3AED&color2=06B6D4">
+  <img alt="github contribution grid snake animation" src="https://github-readme-snake.vercel.app/api?username=wei1305&bg_color=0d1117&color1=7C3AED&color2=06B6D4" width="100%">
 </picture>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wei1305&theme=tokyonight" width="100%" />
 
-<img src="https://raw.githubusercontent.com/wei1305/wei1305/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+<!-- 3D贡献图：等profile-3d Action跑成功生成图片再恢复；暂时注释避免空白 -->
+<!-- <img src="https://raw.githubusercontent.com/wei1305/wei1305/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" /> -->
 </div>
 
 <p align="center">
