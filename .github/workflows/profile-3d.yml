@@ -13,9 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          # A PAT (Personal Access Token) with `repo` scope is required.
-          # Add it as a repository secret named TOKEN:
-          # Settings → Secrets and variables → Actions → New repository secret
           token: ${{ secrets.TOKEN }}
 
       - name: Write settings.json
@@ -43,8 +40,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          # Replace YOUR_USERNAME with your GitHub username
-          USERNAME: YOUR_USERNAME
+          USERNAME: wei1305
 
       - name: Commit and push
         run: |
@@ -52,5 +48,5 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "Update 3D contribution graph" || exit 0
-          git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/YOUR_USERNAME/YOUR_USERNAME.git
+          git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/wei1305/wei1305.git
           git push origin HEAD:main --force
