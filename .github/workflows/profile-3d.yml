@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Write settings.json
         run: |
@@ -39,7 +39,7 @@ jobs:
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: wei1305
 
       - name: Commit and push
@@ -48,5 +48,5 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "Update 3D contribution graph" || exit 0
-          git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/wei1305/wei1305.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/wei1305/wei1305.git
           git push origin HEAD:main --force
