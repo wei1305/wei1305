@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=200&section=header&text=Wei%20SZ&fontSize=62&fontAlignY=40&animation=fadeIn&fontColor=white&desc=VLA%20%C2%B7%20AI%20Agents%20%C2%B7%20Multimodal%20LLMs&descAlignY=62&descSize=17" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=200&section=header&text=Wei%20Wander&fontSize=62&fontAlignY=40&animation=fadeIn&fontColor=white&desc=VLA%20%C2%B7%20AI%20Agents%20%C2%B7%20Multimodal%20LLMs&descAlignY=62&descSize=17" />
   
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=600&lines=VLA+Efficient+Inference+%7C+AI+Agents;Multimodal+Vision-Language-Action;Sparse+Activation+%C2%B7+Low+Latency;VLA+Optimization+for+Robots)](https://git.io/typing-svg)
 
