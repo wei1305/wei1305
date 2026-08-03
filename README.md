@@ -12,7 +12,7 @@
 <h2 align="center"><img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="30px" height="30px"/> Contributions <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="30px" height="30px"/></h2>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=wei1305&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="33%" alt="GitHub Stats"/><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wei1305&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="33%" alt="Top Languages"/><img src="https://streak-stats.demolab.com?user=wei1305&theme=tokyonight&hide_border=true" width="33%" alt="GitHub Streak"/>
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="33%" alt="GitHub Stats"/><img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="33%" alt="Top Languages"/><img src="https://streak-stats.demolab.com?user=wei1305&theme=tokyonight&hide_border=true" width="33%" alt="GitHub Streak"/>
 </div>
 
 <h2 align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="30px" width="30px"/> GitHub Activity <img src="https://i.imgur.com/dBaSKWF.gif" height="30px" width="30px"/></h2>
